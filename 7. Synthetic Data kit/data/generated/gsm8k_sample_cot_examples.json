@@ -1,0 +1,102 @@
+{
+  "summary": "Here is a summary of the document in 2-3 sentences:\n\nThe document contains 50 math problems covering various topics such as algebra, geometry, and basic arithmetic operations. The problems range from simple calculations to more complex scenarios involving multiple steps and variables. The document appears to be a collection of practice problems or a test bank for assessing mathematical skills.",
+  "cot_examples": [
+    {
+      "question": "If James writes a 3-page letter to 2 different friends twice a week, how many pages does he write in a year?",
+      "reasoning": "Step 1: First, I need to determine how many pages James writes in a week. He writes 3 pages to 2 friends twice a week, so the total pages per week is 3 * 2 * 2 = 12.\nStep 2: Next, I need to calculate how many weeks are in a year. There are 52 weeks in a year.\nStep 3: Finally, I can conclude the total number of pages James writes in a year by multiplying the pages per week by the number of weeks in a year: 12 * 52 = 624.",
+      "answer": "624"
+    },
+    {
+      "question": "If Mark has 10 yellow flowers and there are 80% more purple flowers than yellow flowers, and 25% as many green flowers as yellow and purple flowers combined, how many flowers does Mark have?",
+      "reasoning": "Step 1: First, I need to calculate the number of purple flowers. Since there are 80% more purple flowers than yellow flowers, the number of purple flowers is 10 + (10 * 0.8) = 18.\nStep 2: Then, I need to determine the total number of yellow and purple flowers combined, which is 10 + 18 = 28.\nStep 3: Next, I calculate the number of green flowers, which is 25% of the total number of yellow and purple flowers: 0.25 * 28 = 7.\nStep 4: Finally, I can conclude the total number of flowers Mark has by adding the number of yellow, purple, and green flowers: 10 + 18 + 7 = 35.",
+      "answer": "35"
+    },
+    {
+      "question": "If Tina works 10 hours a day for 5 days and earns $18 per hour with overtime pay for hours worked beyond 8 hours, how much does she earn?",
+      "reasoning": "Step 1: First, I need to calculate Tina's earnings for the first 8 hours of work per day, which is 8 * $18 = $144.\nStep 2: Then, I need to determine her overtime pay per hour, which is $18 + ($18 * 0.5) = $27.\nStep 3: Next, I calculate her earnings for the 2 hours of overtime per day, which is 2 * $27 = $54.\nStep 4: Now, I can find her total daily earnings by adding her regular pay and overtime pay: $144 + $54 = $198.\nStep 5: Finally, I can conclude her total earnings for 5 days by multiplying her daily earnings by 5: $198 * 5 = $990.",
+      "answer": "$990"
+    },
+    {
+      "question": "If a deep-sea monster consumes 847 people over 300 years and the number of people on each ship is twice the number on the previous ship, how many people were on the ship it consumed in the first 100 years?",
+      "reasoning": "Step 1: Let's denote the number of people on the first ship as x. Then, the number of people on the second ship is 2x, and on the third ship is 4x.\nStep 2: The total number of people consumed over 300 years is the sum of the people on the three ships: x + 2x + 4x = 7x.\nStep 3: We know that 7x = 847, so we can solve for x: x = 847 / 7 = 121.",
+      "answer": "121"
+    },
+    {
+      "question": "If Ken mows 4 lawns at $15 per lawn and shovels driveways at $7 per driveway, and he has $15 left after buying shoes for $95, how many driveways did he shovel?",
+      "reasoning": "Step 1: First, I need to determine the total amount of money Ken had before buying the shoes. Since he had $15 left after the purchase, he had $95 + $15 = $110.\nStep 2: Then, I need to calculate how much Ken earned from mowing lawns: 4 * $15 = $60.\nStep 3: Next, I subtract his earnings from mowing lawns from his total earnings to find out how much he earned from shoveling driveways: $110 - $60 = $50.\nStep 4: Finally, I can conclude the number of driveways Ken shoveled by dividing his earnings from shoveling by the price per driveway: $50 / $7 = 7.14, which I'll round down to 7 since you can't shovel a fraction of a driveway.",
+      "answer": "7"
+    }
+  ],
+  "conversations": [
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If James writes a 3-page letter to 2 different friends twice a week, how many pages does he write in a year?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to determine how many pages James writes in a week. He writes 3 pages to 2 friends twice a week, so the total pages per week is 3 * 2 * 2 = 12.\nStep 2: Next, I need to calculate how many weeks are in a year. There are 52 weeks in a year.\nStep 3: Finally, I can conclude the total number of pages James writes in a year by multiplying the pages per week by the number of weeks in a year: 12 * 52 = 624.\n\nSo the answer is: 624"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If Mark has 10 yellow flowers and there are 80% more purple flowers than yellow flowers, and 25% as many green flowers as yellow and purple flowers combined, how many flowers does Mark have?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to calculate the number of purple flowers. Since there are 80% more purple flowers than yellow flowers, the number of purple flowers is 10 + (10 * 0.8) = 18.\nStep 2: Then, I need to determine the total number of yellow and purple flowers combined, which is 10 + 18 = 28.\nStep 3: Next, I calculate the number of green flowers, which is 25% of the total number of yellow and purple flowers: 0.25 * 28 = 7.\nStep 4: Finally, I can conclude the total number of flowers Mark has by adding the number of yellow, purple, and green flowers: 10 + 18 + 7 = 35.\n\nSo the answer is: 35"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If Tina works 10 hours a day for 5 days and earns $18 per hour with overtime pay for hours worked beyond 8 hours, how much does she earn?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to calculate Tina's earnings for the first 8 hours of work per day, which is 8 * $18 = $144.\nStep 2: Then, I need to determine her overtime pay per hour, which is $18 + ($18 * 0.5) = $27.\nStep 3: Next, I calculate her earnings for the 2 hours of overtime per day, which is 2 * $27 = $54.\nStep 4: Now, I can find her total daily earnings by adding her regular pay and overtime pay: $144 + $54 = $198.\nStep 5: Finally, I can conclude her total earnings for 5 days by multiplying her daily earnings by 5: $198 * 5 = $990.\n\nSo the answer is: $990"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If a deep-sea monster consumes 847 people over 300 years and the number of people on each ship is twice the number on the previous ship, how many people were on the ship it consumed in the first 100 years?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: Let's denote the number of people on the first ship as x. Then, the number of people on the second ship is 2x, and on the third ship is 4x.\nStep 2: The total number of people consumed over 300 years is the sum of the people on the three ships: x + 2x + 4x = 7x.\nStep 3: We know that 7x = 847, so we can solve for x: x = 847 / 7 = 121.\n\nSo the answer is: 121"
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that provides detailed explanations."
+      },
+      {
+        "role": "user",
+        "content": "If Ken mows 4 lawns at $15 per lawn and shovels driveways at $7 per driveway, and he has $15 left after buying shoes for $95, how many driveways did he shovel?"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me think through this step by step:\n\nStep 1: First, I need to determine the total amount of money Ken had before buying the shoes. Since he had $15 left after the purchase, he had $95 + $15 = $110.\nStep 2: Then, I need to calculate how much Ken earned from mowing lawns: 4 * $15 = $60.\nStep 3: Next, I subtract his earnings from mowing lawns from his total earnings to find out how much he earned from shoveling driveways: $110 - $60 = $50.\nStep 4: Finally, I can conclude the number of driveways Ken shoveled by dividing his earnings from shoveling by the price per driveway: $50 / $7 = 7.14, which I'll round down to 7 since you can't shovel a fraction of a driveway.\n\nSo the answer is: 7"
+      }
+    ]
+  ]
+}
